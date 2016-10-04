@@ -1,14 +1,9 @@
 html {
-  /*
-    Font shorthand
-    font: font-style font-weight font-size/line-height font-family;
-   */
   font: normal 1rem/1.5 Georgia,serif;
 }
 
 h1, h2, h3 {
-  /* font-family: preferred typeface, backup style; */
-  font-family: 'Denk One', sans-serif;
+  font-family: "Denk One", sans-serif;
 }
 
 h1 {
@@ -17,7 +12,6 @@ h1 {
   line-height: 1;
   text-transform: uppercase;
   text-decoration: line-through;
-  /* text-shadow: horizontal-offset vertical-offset blur-radius colour */
   text-shadow: 2px -4px 6px red;
   text-align: center;
 }
