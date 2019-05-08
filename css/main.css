@@ -10,7 +10,7 @@ h1 {
   font-size: 5rem;
   font-weight: normal;
   line-height: 1;
-  text-transform: uppercase;
+  text-transform: uppercase /* capitalize */;
   text-decoration: line-through;
   text-shadow: 2px -4px 6px red;
   text-align: center;
@@ -66,3 +66,11 @@ a:active {
 ol {
   list-style-type: none;
 }
+div > p::first-letter, ::selection {
+  background-color: blueviolet;
+}
+div > p {
+  column-count: 2;
+  column-gap: 1.5rem;
+  column-rule: 2px solid #e2e2e2;
+  }
